@@ -1,16 +1,24 @@
-### Hi there 👋
+# Self-Portfolio Website
+## Powered by HTML, CSS, and JavaScript.
+This repository serves as a representation of my web development journey and my proficiency in front-end technologies.
 
-<!--
-**ronnyADIT/ronnyADIT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Key Features
+### HTML Expertise:
+The website's structure is designed with meticulous attention to detail, adhering to best practices for semantic and accessible HTML.
+### CSS Magic: 
+I've utilized CSS to create a visually appealing and responsive design. Custom styling, animations, and transitions enhance the user experience.
+### JavaScript Mastery: 
+JavaScript is used to implement interactive features, smooth navigation, and dynamic content loading. Form validation, smooth scrolling, and a dynamic project showcase are among the JavaScript-driven elements.
+<br><br> The website is not yet fully responsive, ensuring a consistent user experience across various devices and screen sizes.
+<hr>
 
-Here are some ideas to get you started:
+## Currently Available:
+>Home Page <br>
+>Contact Details [Footer] <br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Under-development:
+>About <br>
+>Education <br>
+>Projects <br>
+>Skills <br>
+
