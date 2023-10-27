@@ -1,4 +1,5 @@
-//alert("NOTE: This website is currently designed only for LandScape or Desktop View!")//I Cordially Welcome You to My Personal Portfolio
+alert("NOTE: This website is currently designed only for LandScape or Desktop View!")
+//I Cordially Welcome You to My Personal Portfolio
 
 let dps = ['HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'MySQL'];
 let dpContent = document.querySelector('.dp_content');
