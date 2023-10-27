@@ -22,5 +22,6 @@ JavaScript is used to implement interactive features, smooth navigation, and dyn
 >Projects <br>
 >Skills <br>
 <br>
-Checkout the website at ronnyadit.github.io/ronnyADIT/
+Checkout the website at
+<a href="https://ronnyadit.github.io/ronnyADIT/">ronnyadit.io</a>
 
