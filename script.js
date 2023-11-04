@@ -1,5 +1,4 @@
-alert("NOTE: This website is currently designed only for LandScape or Desktop View!")
-//I Cordially Welcome You to My Personal Portfolio
+alert("I, Rohit Adithya, Cordially Welcome You to My Personal Portfolio!")
 
 let dps = ['HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'MySQL'];
 let dpContent = document.querySelector('.dp_content');
@@ -49,8 +48,8 @@ function disappear() {
 }
 
 let c1 = ["Premeditated", "Disciplined"];
-let c2 = ["Perfectionist", "Diligent"];
-let c3 = ["Problem-Solver", "Dedicated"];
+let c2 = ["Problem-Solver", "Diligent"];
+let c3 = ["Perfectionist", "Dedicated"];
 let c4 = ["Logical Thinker", "Enthusiastic"];
 let c5 = ["Tactical Strategist", "Self-Motivated"];
 let c6 = ["Hard-Worker", "Committed"];
@@ -246,21 +245,21 @@ const h1 = document.getElementById('h1');
 function repositionH1() {
     const r1Rect = r1.getBoundingClientRect();
     const wh = window.innerHeight;
-    const hH = h1.clientHeight;
-    if (r1Rect.top > wh / 2) {
-        h1.style.position = 'absolute';
-        h1.style.top = 0 + 'px';
-    }
-    else {
-        if (r1Rect.bottom < (wh / 2 + hH)) {
+        const hH = h1.clientHeight;
+        if (r1Rect.top > wh / 2) {
             h1.style.position = 'absolute';
-            h1.style.top = r1Rect.height - hH + 'px';
+            h1.style.top = 0 + 'px';
         }
         else {
-            h1.style.position = 'absolute';
-            h1.style.top = wh / 2 - r1Rect.top + 'px';
+            if (r1Rect.bottom < (wh / 2 + hH)) {
+                h1.style.position = 'absolute';
+                h1.style.top = r1Rect.height - hH + 'px';
+            }
+            else {
+                h1.style.position = 'absolute';
+                h1.style.top = wh / 2 - r1Rect.top + 'px';
+            }
         }
-    }
 }
 window.addEventListener('scroll', repositionH1);
 repositionH1();
@@ -269,21 +268,21 @@ const h2 = document.getElementById('h2');
 function repositionH2() {
     const r2Rect = r2.getBoundingClientRect();
     const wh = window.innerHeight;
-    const hH = h2.clientHeight;
-    if (r2Rect.top > wh / 2) {
-        h2.style.position = 'absolute';
-        h2.style.top = 0 + 'px';
-    }
-    else {
-        if (r2Rect.bottom < (wh / 2 + hH)) {
+        const hH = h2.clientHeight;
+        if (r2Rect.top > wh / 2) {
             h2.style.position = 'absolute';
-            h2.style.top = r2Rect.height - hH + 'px';
+            h2.style.top = 0 + 'px';
         }
         else {
-            h2.style.position = 'absolute';
-            h2.style.top = wh / 2 - r2Rect.top + 'px';
+            if (r2Rect.bottom < (wh / 2 + hH)) {
+                h2.style.position = 'absolute';
+                h2.style.top = r2Rect.height - hH + 'px';
+            }
+            else {
+                h2.style.position = 'absolute';
+                h2.style.top = wh / 2 - r2Rect.top + 'px';
+            }
         }
-    }
 }
 window.addEventListener('scroll', repositionH2);
 repositionH2();
@@ -377,71 +376,6 @@ function repositionH6() {
         }
     }
 }
-/*
 
-
-window.addEventListener('scroll', repositionH6);
-repositionH6();
-const rf = document.getElementById('rf');
-const hf = document.getElementById('hf');
-function repositionHf() {
-    const rfRect = rf.getBoundingClientRect();
-    const wh = window.innerHeight;
-    const fH = hf.clientHeight;
-    if (rfRect.bottom > wh) {
-        hf.style.position = 'fixed';
-        hf.style.bottom = 0 + 'px';
-    }
-    else {
-        hf.style.position = 'fixed';
-        hf.style.top = rfRect.bottom - fH - 10 + 'px';
-    }
-}
-window.addEventListener('scroll', repositionHf);
-repositionHf();
-
-
-
-// console.log('x (left):', h1Rect.x);
-// console.log('y (top):', h1Rect.y);
-// console.log('width:', h1Rect.width);
-// console.log('height:', h1Rect.height);
-// console.log('right:', h1Rect.right);
-// console.log('bottom:', h1Rect.bottom);
-// console.log('wh:', wh);
-
-
-const r1=document.getElementById('r1');
-const h1=document.getElementById('h1');
-function repositionH1(){
-    const r1R=r1.getBoundingClientRect();
-    //const h1R=h1.getBoundingClientRect();
-    const wh=window.innerHeight;
-    const hH=h1.clientHeight;
-    if(r1R.top>((wh/2)-(hH/2))){
-        h1.style.position='absolute';
-        h1.style.top=r1Rect.top;
-    }
-    else{
-        if(r1R.bottom<((wh/2)+(hH/2))){
-            h1.style.position='absolute';
-            h1.style.top=r1Rect.bottom-hH;
-        }
-        else{
-            h1.style.position='absolute';
-            h1.style.top=(wh/2)-(hH/2);
-        }
-    }
-}
-
-// Attach the repositionH1 function to the scroll event
-window.addEventListener('scroll', repositionH1);
-
-// Initial positioning of h1 element
-repositionH1();
-
-
-
-r1Rect.bottom>windowHeight
-        h1.style.bottom=r1Rect.bottom>windowHeight?'0':'auto';
-*/
+const ww = window.innerWidth;
+console.log(ww);
